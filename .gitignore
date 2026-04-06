@@ -1,0 +1,16 @@
+# Mac
+.DS_Store
+
+# Node
+node_modules/
+
+# Env files
+.env
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Vault sensitive data
+*.vault-token
