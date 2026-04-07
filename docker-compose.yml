@@ -10,3 +10,8 @@ services:
     command: vault server -dev -dev-listen-address=0.0.0.0:8200
     cap_add:
       - IPC_LOCK
+    volumes:
+      - vault-logs:/vault/logs
+
+volumes:
+  vault-logs:
